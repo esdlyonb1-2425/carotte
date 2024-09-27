@@ -1,8 +1,57 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
 .rouge{
-    color: red;
+    color: rgba(12,15,46,0.2);
+
+    border : blue 5px solid;
+    border-radius : 10%;
 }
 .monBouton{
-    color: red;
+    color: #ff2d9b;
     background-color: blue;
     border-right : green solid 5px;
 }
+.monParagraphe{
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+background-color: green;
+}
+.monTitre{
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+}
+.liens{
+    border : black 4px solid;
+    width : 50%;
+    padding: 20px;
+    margin: 20px;
+}
+.divPlusPetite{
+    border : red 4px solid;
+    width : 50%;
+
+}
+.boiteMarron{
+    border : red 4px solid;
+    width : 90vw;
+    height: 90vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.cercle{
+    border : black 4px solid;
+    height : 10vh;
+    width : 10vh;
+    border-radius : 50%;
+}
+.vert{background-color: green}
+.rouge{background-color: red}
+.bleu{background-color: blue}
