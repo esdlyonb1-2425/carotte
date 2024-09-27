@@ -1,0 +1,8 @@
+.rouge{
+    color: red;
+}
+.monBouton{
+    color: red;
+    background-color: blue;
+    border-right : green solid 5px;
+}
